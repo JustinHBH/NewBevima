@@ -1,0 +1,100 @@
+/* Profile.css */
+
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button, .button-link {
+  padding: 10px 50px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none; 
+}
+
+button:hover, .button-link:hover {
+  background-color: #575757;
+  color: #ddc89b;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.birthdate-dropdowns {
+  display: flex;
+  gap: 10px; 
+}
+
+.birthdate-dropdowns select {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.react-datepicker {
+  font-family: 'Arial', sans-serif;
+}
+
+.react-datepicker__calendar-container {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.react-datepicker__header {
+  background-color: #333;
+  color: #ddc89b;
+}
+
+ .react-datepicker__day-name {
+  color: #ddc89b;
+}
+
+.react-datepicker__day--selected {
+  background-color: #333;
+  color: #ddc89b;
+}
+
+.react-datepicker__current-month {
+  color: #ddc89b;
+}
+
+.react-datepicker__year-dropdown-container::after {
+  content: "\2193";
+  font-size: 14px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.react-datepicker__year-dropdown {
+  color: #333;
+  background-color: #ddc89b;
+}
+
+.update-back{
+  display: flex;
+  justify-content: space-between;
+}

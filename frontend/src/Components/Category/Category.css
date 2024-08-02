@@ -1,0 +1,69 @@
+/* Category.css */
+
+@media only screen and (max-width: 768px) {}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  width: calc(100% - 24px); 
+  margin-left: 20px;
+  margin-right: 12px;
+  overflow-x: auto; 
+  position: relative;
+}
+
+.Category-title {
+ text-align: left !important;
+ margin-left: 15px;
+}
+
+.category-list {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 650px;
+}
+
+.category-item {
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #DDC89B;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3, color 0.3s;
+}
+
+.category-item:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
+  background-color: #DDC89B;
+  color: white;
+}
+
+.category-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 58px;
+}
+
+.category-name {
+  font-size: 20px;
+  padding-top: 10px;
+  transition: color 0.3s;
+}
+
+.category-name:hover{
+  color: white ;
+}

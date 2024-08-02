@@ -1,0 +1,20 @@
+/* QuantitySelector.css */
+.quantity-selector{
+    border-radius: 0 !important;
+  }
+  
+  .quantity-selector input {
+      width: 50px; 
+      justify-content: center;
+      text-align: center; 
+      width: 50px; 
+  
+    }
+    
+    .quantity-selector input[type="number"]::-webkit-inner-spin-button,
+    .quantity-selector input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none; 
+      margin: 0; 
+    }
+  
+  

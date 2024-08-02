@@ -1,0 +1,13 @@
+
+.star-filled {
+    color: gold; 
+  }
+  
+  .star-outline {
+    color: lightgray; 
+  }
+  
+  .star-outline,
+.star-filled {
+  font-size: 35px;
+}

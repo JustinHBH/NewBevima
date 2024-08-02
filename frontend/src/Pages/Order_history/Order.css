@@ -1,0 +1,11 @@
+.order-table{
+    width: 90%;
+}
+
+.order-container {
+    display: flex;
+    margin-top: 134px;
+    flex-direction: column;
+    align-items: center;
+}
+

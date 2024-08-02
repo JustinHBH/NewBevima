@@ -1,0 +1,53 @@
+/* MainAboutUs.css */
+
+.MainAboutUs-title{
+  margin-top: -0px;
+}
+
+.content1 {
+  width: 500px; 
+  height: 400px;
+}
+
+.content2 {
+  width: 500px; 
+  height: 400px;
+}
+
+.content2 p {
+  text-align: center;
+  font-style: italic;
+}
+
+.content3 {
+  width: 500px; 
+}
+
+.content4, .content5{
+  height: 500px;
+} 
+
+.content3 p, .content4 p, .content5 p{
+  text-align: justify; 
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content1 , .content2, .content3, .content4, .content5 {
+  padding: 10px;
+}
+
+
+.content4{
+  padding-bottom: 85px;
+}
+
+.slogan {
+  font-size: 40px;
+  font-weight: bold;
+}

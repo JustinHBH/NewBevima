@@ -1,0 +1,215 @@
+/* ProductDetail.css */
+
+.product-detail-container {
+    display: flex;
+    height: 100%;
+    overflow: none;
+  }
+  
+  .product-detail-image-container {
+    flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .product-detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .product-detail-category {
+    color: #777;
+  }
+  
+  .product-detail-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .product-detail-description {
+    margin-bottom: 15px;
+  }
+  
+  .product-detail-stock {
+    margin-bottom: 10px;
+  }
+  
+  .product-detail-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .product-detail-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: baseline;
+  }
+  
+  .product-detail-add-cart,
+  .quantity-selector {
+    margin-right: 10px;
+  }
+  
+  .product-detail-icon-btn {
+    color: #333;
+    padding: 7px;
+    cursor: pointer;
+  }
+  
+  .product-detail-icon-btn i {
+    font-size: 24px;
+  }
+  
+  .product-detail-icon-btn:hover {
+    color: #DDC89B;
+  }
+  
+  
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantity-selector button {
+    background-color: #DDC89B;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .rating {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star {
+    color: #f39c12;
+    
+  }
+  
+  .ReactModal__Overlay {
+    transition: opacity 300ms ease-in-out;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  
+
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .comments-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .comments-container {
+    margin-top: 40px;
+  }
+  
+  .comment-form-title {
+    font-size: 22px;
+  }
+  
+  .comment-form-textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid rgb(107, 114, 12);
+  }
+  
+  .comment-form-button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background: rgb(59, 130, 246);
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .comment-form-button:hover:enabled {
+    cursor: pointer;
+    background: rgb(37, 99, 235);
+  }
+  
+  .comment-form-button:disabled {
+    opacity: 0.7;
+    cursor: default;
+  }
+  
+  .comment-form-cancel-button {
+    margin-left: 10px;
+  }
+  
+  .comment {
+    display: flex;
+    margin-bottom: 28px;
+  }
+  
+  .comment-image-container {
+    margin-right: 12px;
+  }
+  
+  .comment-image-container img {
+    border-radius: 50px;
+  }
+  
+  .comment-right-part {
+    width: 100%;
+  }
+  
+  .comment-content {
+    display: flex;
+  }
+  
+  .comment-author {
+    margin-right: 8px;
+    font-size: 20px;
+    color: rgb(59, 130, 246);
+  }
+  
+  .comment-text {
+    font-size: 18px;
+  }
+  
+  .comment-actions {
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .comment-action {
+    margin-right: 8px;
+    color: #333;
+  }
+  
+  .comment-action:hover {
+    text-decoration: underline;
+  }
+  
+  .replies {
+    margin-top: 20px;
+  }
+

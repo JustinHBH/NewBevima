@@ -1,0 +1,38 @@
+/* AddNew.css */
+
+.add-new-button {
+    background-color: #333;
+    color: #DDc89b;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-new-button:hover {
+    background-color: #DDc89b;
+    color: #333;
+}
+
+
+.select-style {
+    margin-bottom: 25px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  
+  }
+  
+  .select-style:hover {
+    border-color: #888;
+  }
+  
+  .select-style:focus {
+    outline: none;
+    border-color: #555;
+  }
+  
+
+

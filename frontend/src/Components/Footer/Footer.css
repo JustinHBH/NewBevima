@@ -1,0 +1,71 @@
+/* Footer.css */
+@media only screen and (max-width: 768px) {}
+
+.footer-container {
+  height: 240px;
+  background-color: #333;
+  color: #ddc89b;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid #ddc89b;
+  padding-top: 10px;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+.contact-follow-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact h3 {
+  color: #ddc89b;
+}
+
+.follow h3{
+  color: #ddc89b;
+}
+
+.contact,
+.follow {
+  flex: 1;
+  position: relative;
+  margin-right: 10px;
+}
+
+.follow h3 {
+  margin-left: 10px;
+}
+
+.contact p {
+  text-align: left;
+}
+
+.footer-text {
+  text-align: right;
+  margin-top: 60px;
+}
+
+.social-icons {
+  justify-content: right;
+}
+
+.social-icons a {
+  color: #ddc89b;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.follow {
+  text-align: right;
+}

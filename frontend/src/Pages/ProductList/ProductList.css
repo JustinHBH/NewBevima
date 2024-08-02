@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  
+.sidebar {
+    width: 15%;
+    padding: 20px;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 70px;
+    border-top: 2px solid #ddc89b;
+
+  }
+
+  .sidebar h2 {
+    color: #DDC89B;
+
+  }
+  
+  .sidebar label {
+    display: block;
+    margin-bottom: 3px;
+    color: #ddc89b;
+    margin-right: 8px;
+  }
+
+.sidebar input[type="range"] {
+  width: 100%;
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 7px; 
+  cursor: pointer;
+  font-size: 20px;
+  justify-content: left;
+}
+
+.filter-label input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  transform: translateX(-50%);
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+}
+
+.product-cards-container {
+  margin-left: 15%; 
+  width: 85%; 
+  padding: 20px; 
+}
+
+.search-and-sort-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
+.sort-by {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 90px;
+  margin-bottom: 0;
+  margin-right: 22px;
+  align-items: baseline;
+}
+
+.sort-by span {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.sort-by select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.load-more-button {
+  display: block;
+  margin: 20px auto; 
+  padding: 10px 20px;
+  background-color: #DDC89B;
+  color: #333;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.load-more-button:hover {
+  background-color: #333;
+  color: #DDC89B;
+}
+
+
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+.checkbox-item {
+  display: flex; 
+  align-items: center; 
+  margin-right: 10px; 
+  margin-bottom: 10px; 
+  
+}
+
+.checkbox-item label {
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px; 
+}
+
+.checkbox-item input {
+ 
+  display: flex;
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: 4px;
+}
+
+.search-bar{
+  margin-top: 85px;
+  margin-left: 134px;
+}
+.search-input {
+  height: 50px;
+  width: 600px;
+  margin-right: 10px;
+}
+
+.search-button {
+  height: 40px;
+  margin: 0 auto;  
+  padding: 0 10px;
+  transition: background-color 0.3s;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.search-button:hover {
+  background-color: #ddc89b;
+  cursor: pointer;
+  color: white;
+}
+
+.product-list-container{
+  margin-top: 40px;
+}

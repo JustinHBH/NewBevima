@@ -1,0 +1,38 @@
+/* Navbar.css */
+@media only screen and (max-width: 768px) {}
+
+.navbar {
+  background-color: #ddc89b;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 999; 
+  top: 70px; 
+  width: 100%; 
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 70px; 
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
