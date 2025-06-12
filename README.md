@@ -5,13 +5,6 @@ Bevima is a full-stack e-commerce website where users can browse, search, and pu
 
 ---
 
-## 🚀 Demo
-
-👉 Link demo: *(Thêm link Netlify/Vercel nếu có)*  
-👉 Link GitHub backend (nếu tách riêng): *(Thêm nếu có)*
-
----
-
 ## 🧱 Features
 
 ### 👥 User Side
