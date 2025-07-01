@@ -75,17 +75,21 @@ cd frontend
 npm start
 ```
 
----
 
-### 🗂️ System Architecture
+## 🧭 System Design Overview
 
-The project includes:
+This project includes a comprehensive system design to visualize and document the entire architecture of the Bevima application.
 
-- ✅ Use Case Diagrams for Admin, Staff, Customer
-- ✅ Sequence & Activity Diagrams for login, cart, checkout flows
-- ✅ Class Diagram of all database entities and relationships
+### 📄 [View Full System Design (PDF)](./bevima-diagram.pdf)
 
-📄 [Full PDF – System Design Documentation](./bevima-diagram.pdf)
+#### 📌 Includes:
+- ✅ Use Case Diagrams (Customer, Staff, Admin)
+- ✅ Sequence Diagrams (Login, Checkout, Product flow)
+- ✅ Class Diagram (Entity relationships & attributes)
+- ✅ Functional Modules Map
+- ✅ Activity Diagrams (Ordering & Registration flows)
+
+The diagrams help ensure full understanding of how each role interacts with the system and serve as a guide for both development and QA testing.
 
 
 ## 📚 Lessons Learned
