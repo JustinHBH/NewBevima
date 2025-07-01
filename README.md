@@ -77,6 +77,17 @@ npm start
 
 ---
 
+### 🗂️ System Architecture
+
+The project includes:
+
+- ✅ Use Case Diagrams for Admin, Staff, Customer
+- ✅ Sequence & Activity Diagrams for login, cart, checkout flows
+- ✅ Class Diagram of all database entities and relationships
+
+📄 [Full PDF – System Design Documentation](./bevima-diagram.pdf)
+
+
 ## 📚 Lessons Learned
 
 - Full-stack integration using REST API
